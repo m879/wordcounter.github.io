@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Word Counter</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src='script.js'></script>
+    </head>
+    <body >
+        <h1>WORD COUNTER</h1>
+        <div>
+            <h2>Enter how many words you want to type: </h2>
+            <h1 style="padding-top: 20px;"><input id="get" type="number" style="height: 30px;" placeholder="Number of words"></h1>
+        </div>
+        <ul>
+            <li>Words you type:<h3 id="text"></h3></li>
+            <li>Words left to type:<h3 id="left"></h3> </li>
+        </ul>
+        <textarea id="txtarea" placeholder="Type your text....."></textarea>
+        <div style="text-align: center;padding-top: 30px;">
+            <button onclick="wordcount()" >Click Me</button> 
+        </div>
+    </body>
+</html>
